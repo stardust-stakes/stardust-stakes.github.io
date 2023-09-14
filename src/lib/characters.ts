@@ -170,6 +170,14 @@ export const characters: Character[] = [
     riddle: `I'm the darkness that isn't night, the space void of stellar light. Absorbing all, even a photon's flight. What am I?`,
     answer: `black hole`,
     costume: `As the grand architect of galaxy-spanning information networks, your attire should be as intricate and enchanting as the webs you weave. Choose a dress or ensemble in deep, cosmic shades like midnight blues or nebula purples, adorned with shimmering patterns to represent constellations. Accessories might include a cloak, sheer cape, or veil, symbolizing your love for secrecy, and delicate jewelry pieces that hint at the countless secrets you hold. Glitter or jewels adorning your face, hands, or arms would be appropriate. Your ensemble should help ensure you remain an enigma, always observing, always listening.    `,
+    images: [
+      '/luna/miranda 1.jpg',
+      '/luna/miranda 2.jpg',
+      '/luna/miranda 3.jpg',
+      '/luna/miranda 4.jpg',
+      '/luna/miranda 5.jpg',
+      '/luna/miranda 6.jpg',
+    ]
   },
   {
     path: "eliza",
@@ -185,6 +193,7 @@ export const characters: Character[] = [
     images: [
       '/seraphina/_d686c78d-cf2c-4efe-a0d0-bac8b69e28ad.jpeg',
       '/seraphina/_64c4a29e-af37-42c4-8a0a-080194d86fb4.jpeg',
+      '/seraphina/eliza 2.jpg',
       '/seraphina/_61eeb458-f921-4c45-9f38-c98b88650843.jpeg',
       '/seraphina/_549475f4-c363-4568-b78f-472bf544d299.jpeg',
       '/seraphina/_4b9ada1d-5d2e-420d-bf1f-df7c321ef490.jpeg',

@@ -1,6 +1,6 @@
 <script lang="ts">
   import type { PageData } from "./$types";
-  import { persisted } from 'svelte-local-storage-store';
+  import { persisted } from "svelte-local-storage-store";
   export let data: PageData;
 
   let response: string = "";
@@ -11,11 +11,14 @@
 <div class="w-full h-full flex flex-col items-center py-12 pb-32">
   <div class="mx-30 m-8">
     {#if !$solved}
-        <div class="w-full h-full flex flex-col justify-center items-center py-12">
-          <h1 class="text-center text-4xl uppercase mb-6">Riddle</h1>
-          <p class="text-2xl mb-8 max-w-lg">
-            {data.riddle}
-          </p>
+      <div
+        class="w-full h-full flex flex-col justify-center items-center py-12"
+      >
+        <h1 class="text-center text-4xl uppercase mb-6">Riddle</h1>
+        <p class="text-2xl mb-8 max-w-lg">
+          {data.riddle}
+        </p>
+        <form>
           <div class="join" bind:this={inputGroup}>
             <input
               bind:value={response}
@@ -29,7 +32,8 @@
               on:click={() => {
                 if (response.toLowerCase().includes(data.answer)) {
                   solved.set(true);
-                  document.body.scrollTop = document.documentElement.scrollTop = 0;
+                  document.body.scrollTop =
+                    document.documentElement.scrollTop = 0;
                 } else {
                   response = "";
                   inputGroup.classList.add("shake");
@@ -40,10 +44,10 @@
               }}
             />
           </div>
-        </div>
-      {:else}
-    <article class="prose prose-slate dark:prose-invert">
-      
+        </form>
+      </div>
+    {:else}
+      <article class="prose prose-slate dark:prose-invert">
         <!--  -->
         <h1 class="text-xl text-center">{data.actor} is...</h1>
         <div class="w-full flex flex-row justify-center">
@@ -63,20 +67,22 @@
         </h2>
         <hr class="mt-6 mb-6" />
         <p class="text-2xl">{data.blurb}</p>
-        <hr/>
-        <h2 class={"text-3xl font-bold text-center uppercase"}>Costume Suggestion</h2>
+        <hr />
+        <h2 class={"text-3xl font-bold text-center uppercase"}>
+          Costume Suggestion
+        </h2>
         <p class="text-2xl">{data.costume}</p>
         {#if data.images}
-        {#each data.images as image}
-          <img src={image} class="w-full" alt="DALL-E example"/>
-        {/each}
+          {#each data.images as image}
+            <img src={image} class="w-full" alt="DALL-E example" />
+          {/each}
         {/if}
         <hr class="mb-4" />
         <hr class="" />
-    </article>
+      </article>
     {/if}
     <!-- this is to keep shake from being optimized out -->
-    <span class="shake">&nbsp;</span> 
+    <span class="shake">&nbsp;</span>
   </div>
 </div>
 
@@ -100,7 +106,9 @@
     animation: shake 0.2s ease-in-out 0s 2;
   }
 
-  h1, p, li {
+  h1,
+  p,
+  li {
     @apply text-gray-100;
   }
 </style>
