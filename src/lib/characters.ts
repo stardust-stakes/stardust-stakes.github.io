@@ -151,6 +151,13 @@ export const characters: Character[] = [
     riddle: `I have rings but not a finger, storms that forever linger. Though not the largest, I stand out. Guess me, and you’ll have no doubt. What am I?`,
     answer: `saturn`,
     costume: `You're the embodiment of an interstellar fairy tale. Your attire should shimmer and glow, evoking the bioluminescent magic of your homeland. Go for ethereal gowns in silvery or pearlescent hues that flow as you move. Consider adding iridescent makeup or body paint to further enhance your otherworldly glow. No ensemble would be complete without wings, either crafted from translucent materials or LED-embedded for an extra touch of luminance. And, to capture the essence of your celestial voice, perhaps wear a sparkling choker or necklace that captures the light every time you speak.`,
+    images: [
+      '/zara/_434786ef-67a1-495d-92d3-dfbd394394ca.jpeg',
+      '/zara/_00dc4e64-5aef-4e60-95aa-01541cf4ebe5.jpeg',
+      '/zara/_3b3df338-6bc9-43fa-9f24-76419dfa872f.jpeg',
+      '/zara/_f186cf4d-a06a-4fdf-aac8-cccb006a36b8.jpeg',
+      '/zara/_ab43957a-a93b-49a7-ac3d-0ac1f7f91b94.jpeg',
+    ]
   },
   {
     path: "miranda",
