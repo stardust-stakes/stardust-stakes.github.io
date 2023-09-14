@@ -182,5 +182,12 @@ export const characters: Character[] = [
     riddle: `I am a spiral of stars and dust, but I’m not in the Milky Way. I'm named after a mythical princess and I’m getting closer every day. What am I?`,
     answer: `andromeda`,
     costume: `As the illustrious princess from a domain of stardust, your attire should be nothing short of ethereal. Opt for a gown that glimmers and shimmers, reminiscent of a starlit sky, in hues of silvery blues, soft purples, or iridescent whites. Adornments could include a tiara or diadem shaped like a crescent moon or twinkling stars, while flowing sleeves or a cape would evoke the vastness of the cosmos. For your makeup, consider accentuating with subtle glitter or delicate jewels. Footwear should be delicate, as if you're always ready to dance on moonbeams. Remember, as a diplomat among the stars, your look should strike a balance between regal grace and celestial wonder.    `,
+    images: [
+      '/seraphina/_d686c78d-cf2c-4efe-a0d0-bac8b69e28ad.jpeg',
+      '/seraphina/_64c4a29e-af37-42c4-8a0a-080194d86fb4.jpeg',
+      '/seraphina/_61eeb458-f921-4c45-9f38-c98b88650843.jpeg',
+      '/seraphina/_549475f4-c363-4568-b78f-472bf544d299.jpeg',
+      '/seraphina/_4b9ada1d-5d2e-420d-bf1f-df7c321ef490.jpeg',
+    ]
   },
 ];
