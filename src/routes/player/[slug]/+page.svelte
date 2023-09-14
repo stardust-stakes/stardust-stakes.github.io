@@ -66,11 +66,17 @@
         <hr/>
         <h2 class={"text-3xl font-bold text-center uppercase"}>Costume Suggestion</h2>
         <p class="text-2xl">{data.costume}</p>
+        {#if data.images}
+        {#each data.images as image}
+          <img src={image} class="w-full" alt="DALL-E example"/>
+        {/each}
+        {/if}
         <hr class="mb-4" />
         <hr class="" />
     </article>
     {/if}
-
+    <!-- this is to keep shake from being optimized out -->
+    <span class="shake"></span> 
   </div>
 </div>
 

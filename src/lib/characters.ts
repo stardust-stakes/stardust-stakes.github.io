@@ -19,6 +19,7 @@ export interface Character {
   riddle: string;
   answer: string;
   costume: string;
+  images?: string[];
 }
 
 export const characters: Character[] = [
@@ -32,7 +33,14 @@ export const characters: Character[] = [
     blurb: `Rex is renowned across star systems for both his quick draw and silver tongue. Riding the astral winds aboard his famed ship, "The Cosmic Steed," he's celebrated for his tales of wild frontier adventures. Rex has even mapped out worlds that many once believed to be mere myths.`,
     riddle: `Not a gate or a door, but named as such, I warp time and space with a massive clutch. Through me, galaxies might connect, but entering me is a risky prospect. What am I?`,
     answer: `wormhole`,
-    costume: `Opt for a jacket or vest made of material that resembles the night sky, glittering with stars. Underneath, wear a rugged shirt that hints at the adventures you've been through. While your quick draw is legendary, a futuristic holster (or faux laser gun) at your side would be essential. Make it look sleek and metallic. Choose boots that have a celestial touch, maybe with silver or holographic finishes. Top off your look with a hat that has space age modifications - perhaps embedded LEDs or a shimmering band. As someone who's mapped out mythical worlds, carry a futuristic "map" or a space-age compass. It not only adds depth to your character but showcases your explorer side.`
+    costume: `Opt for a jacket or vest made of material that resembles the night sky, glittering with stars. Underneath, wear a rugged shirt that hints at the adventures you've been through. While your quick draw is legendary, a futuristic holster (or faux laser gun) at your side would be essential. Make it look sleek and metallic. Choose boots that have a celestial touch, maybe with silver or holographic finishes. Top off your look with a hat that has space age modifications - perhaps embedded LEDs or a shimmering band. As someone who's mapped out mythical worlds, carry a futuristic "map" or a space-age compass. It not only adds depth to your character but showcases your explorer side.`,
+    images: [
+      '/rex/_3e983e71-aec8-41c6-a66f-5d01fa2de4f1.jpeg',
+      '/rex/_16aaa4e0-1a70-43fa-9fb2-5d4cd3466d77.jpeg',
+      '/rex/_39298a04-0684-43fa-bf70-a62d31514519.jpeg',
+      '/rex/_ea44a7e1-7a0b-46a9-ba62-e681082579c5.jpeg',
+      '/rex/_a0730b5a-da4d-4620-b637-63165238029c.jpeg',
+    ]
   },
   {
     path: "dru",
@@ -80,7 +88,15 @@ export const characters: Character[] = [
     blurb: `As a notorious figure, Thane combines allure with astuteness, making him one of the most evasive in the galaxy. While he's perpetually in pursuit of the grandest heist, rumors also abound about his days as a space smuggler, a period marked by a string of elusive escapes and unmatched craftiness.`,
     riddle: `Though named for the god of war, my surface bears no life so far. With mountains tall and valleys grand, who am I, with polar ice and desert sand?`,
     answer: `mars`,
-    costume: `Step into the spotlight as the galaxy's most dashing rogue. For attire, consider a tailored jacket or coat, perhaps with ornate embroidery or patches. Underneath, a crisp shirt, dark pants, and rugged boots will complete the look. A vest with multiple pockets (for all those stolen treasures) and a wide belt with a statement buckle would add to the pirate charm. Given your smuggling past, accessories could include gloves (for those stealthy heists), a sash, and even a pirate hat with a futuristic twist. If you're feeling particularly bold, a faux drone on your shoulder could be a nod to the classic pirate companions. Incorporate elements of wear and tear to show the battles you've faced and narrow escapes you've had. `
+    costume: `Step into the spotlight as the galaxy's most dashing rogue. For attire, consider a tailored jacket or coat, perhaps with ornate embroidery or patches. Underneath, a crisp shirt, dark pants, and rugged boots will complete the look. A vest with multiple pockets (for all those stolen treasures) and a wide belt with a statement buckle would add to the pirate charm. Given your smuggling past, accessories could include gloves (for those stealthy heists), a sash, and even a pirate hat with a futuristic twist. If you're feeling particularly bold, a faux drone on your shoulder could be a nod to the classic pirate companions. Incorporate elements of wear and tear to show the battles you've faced and narrow escapes you've had. `,
+    images: [
+      '/thane/_87f3147f-fd81-4e81-9037-d76b7cd62750.jpeg',
+      '/thane/_6b268baf-2a54-49a9-8de1-0a7753d3e82b.jpeg',
+      '/thane/_d682aa3e-9705-405e-aa0b-b7113a44af3f.jpeg',
+      '/thane/_adde46db-d357-40d4-9a32-dea2f7375168.jpeg',
+      '/thane/_89475589-c2b2-4d19-84aa-f55fe15074df.jpeg',
+      '/thane/_44b0759b-69e5-42e5-8a66-9a48ade5ecef.jpeg',
+    ]
   },
   {
     path: "rachel",
