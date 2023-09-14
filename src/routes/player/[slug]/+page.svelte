@@ -76,7 +76,7 @@
     </article>
     {/if}
     <!-- this is to keep shake from being optimized out -->
-    <span class="shake"></span> 
+    <span class="shake">&nbsp;</span> 
   </div>
 </div>
 

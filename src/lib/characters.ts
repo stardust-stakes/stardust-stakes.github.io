@@ -52,7 +52,14 @@ export const characters: Character[] = [
     blurb: `Eldric hails from the bustling trade moons of Mercara, specializing in rare cosmic artifacts and ancient interstellar relics. Among elite circles, his name is synonymous with procuring items that offer power, knowledge, or insights into the galaxy's distant past.`,
     riddle: `Not a beat of a heart, nor a flash in the pan, but I rhythmically emit, from a star's lifespan. Bright, rapid, and distant, in radio waves, I play. Who am I, showing patterns in such a way?`,
     answer: `pulsar`,
-    costume: `Think deep-space elegance. Select a tailored suit or robe in galactic shades like deep blues, silvers, or metallics. The material should give off a subtle shimmer, reflecting your stature in the celestial trade scene.Adorn your outfit with "cosmic artifacts." A ring or pendant with a "mysterious" glowing gem or a merchant's satchel filled with "ancient" interstellar trinkets could be the perfect touch.Choose sleek, polished boots or shoes to convey your elite status in the galaxy's marketplaces. Remember, every piece of your ensemble tells of your vast trading voyages and connections.    `
+    costume: `Think deep-space elegance. Select a tailored suit or robe in galactic shades like deep blues, silvers, or metallics. The material should give off a subtle shimmer, reflecting your stature in the celestial trade scene.Adorn your outfit with "cosmic artifacts." A ring or pendant with a "mysterious" glowing gem or a merchant's satchel filled with "ancient" interstellar trinkets could be the perfect touch.Choose sleek, polished boots or shoes to convey your elite status in the galaxy's marketplaces. Remember, every piece of your ensemble tells of your vast trading voyages and connections.    `,
+    images: [
+      '/eldric/_e4916b49-ee7d-4b12-9b1a-1fb05d36e202.jpeg',
+      '/eldric/_fa06af69-4f66-4352-b2b7-4bfda0f96d9b.jpeg',
+      '/eldric/_34c9389e-d9a1-4b58-874d-9a81edd38e7a.jpeg',
+      '/eldric/_9f20a1ee-251c-4846-b8c2-b38a003bfaaf.jpeg',
+      '/eldric/_56a3849c-c7ac-4b83-845a-b379e3b57b6a.jpeg'
+    ]
   },
   {
     path: "zach",
