@@ -91,6 +91,13 @@ export const characters: Character[] = [
     riddle: `I'm a star's final act, in brilliant displays, a cosmic explosion, a supernova's remains. What am I?`,
     answer: `nebula`,
     costume: `Embrace Viran's radiant nature with an outfit shimmering in metallic or iridescent fabrics. Opt for a fitted suit or tunic, adorned with faux crystal embellishments, capturing the essence of the crystalline caves. Accentuate with a cloak or drape, sprinkled with glow-in-the-dark elements, to mimic his gleaming aura. Footwear could be silver or crystal-clear boots. Given Viran's trade expertise, accessorize with necklaces or bracelets made of faux gems or mineral-like materials. Finalize the look with luminescent makeup or body paint, highlighting features that sparkle in different lights. As Viran, you're not just glowing; you're the embodiment of your celestial home.    `,
+    images: [
+      '/viran/_3e72d443-6a0e-4a7b-9f06-2858295a406e.jpeg',
+      "/viran/_5de32a00-e3d3-47b7-b9f6-322335c5af81.jpeg",
+      "/viran/_5d792842-2e47-4140-be1b-0dd7107b8c6b.jpeg",
+      "/viran/_3b1c68dd-99e9-4249-871f-3cd946b4db50.jpeg",
+      "/viran/_7bce48ee-1a56-429d-832c-558b892372bc.jpeg",
+    ]
   },
   {
     path: "joseph",
@@ -123,6 +130,15 @@ export const characters: Character[] = [
     riddle: `I look like a star, but I'm not one. I'm far and bright, but I'm not a sun. I feed on black holes, but I don't get eaten. I'm old and fast, but I'm not beaten. What am I?`,
     answer: `quasar`,
     costume: `You're a hunter among the stars. Opt for attire that speaks to a galactic pursuit: think dark leather or metallic materials paired with boots made for a swift chase. Pockets, gloves, and anything tactical is appropriate. If interested, you may accentuate a scar or two on your face or arm. For a more sophisticated approach, consider a sleek, starlit gown that whispers of the cosmos.No matter the opulence of your attire, your experienced and stealthy nature ensures you'll always have the upper hand in any situation.Don't forget to accessorize with faux weapons, strap holsters, or even a touch of glitter on your face to hint at the vast expanse you roam.`,
+    images: [
+      "/adria/ranch.jpg",
+      "/adria/ranch 1.jpg",
+      "/adria/ranch 2.jpg",
+      "/adria/ranch 3.jpg",
+      "/adria/ranch 4.jpg",
+      "/adria/ranch 5.jpg",
+      "/adria/ranch 6.jpg",
+    ]
   },
   {
     path: "karli",
