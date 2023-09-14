@@ -18,6 +18,20 @@ const config = {
 			precompress: false,
 			strict: true,
 		}),
+		prerender: {
+			entries: [
+				'*',
+				'/player/collin',
+				'/player/zach',
+				'/player/andrew',
+				'/player/dru',
+				'/player/joseph',
+				'/player/miranda',
+				'/player/eliza',
+				'/player/rachel',
+				'/player/karli',
+			]
+		}
 	},
 };
 
